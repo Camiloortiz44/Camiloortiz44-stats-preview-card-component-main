@@ -6,12 +6,32 @@
     --Slightly-transparent-white: hsla(0, 0%, 100%, 0.75);
     --Slightly-transparent-white-dos: hsla(0, 0%, 100%, 0.6);
 }
-
+html{
+    box-sizing: border-box;
+}
 body{
+    background: var(--Very-dark-blue);
     font-family: 'Inter', sans-serif;
+    font-size: 12px;
     /* font-family: 'Lexend Deca', sans-serif;*/
 }
 
 .container {
     margin: 1em auto;
+    width: 90%;
+}
+/*
+.card-header{
+    background: var(--Dark-desaturated-blue);
+    border-radius: 1em;
+    overflow: hidden;
+}
+.image{
+    background-image: url('../images/image-header-mobile.jpg');
+    background-color: var(--Soft-violet);
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: cover;
+    height: 400px;
 }
