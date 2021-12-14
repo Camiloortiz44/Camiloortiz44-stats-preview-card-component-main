@@ -12,21 +12,23 @@ html{
 body{
     background: var(--Very-dark-blue);
     font-family: 'Inter', sans-serif;
-    font-size: 12px;
     /* font-family: 'Lexend Deca', sans-serif;*/
+}
+span{
+    color: var(--Soft-violet) ;
 }
 
 .container {
     margin: 1em auto;
     width: 90%;
 }
-/*
-.card-header{
+
+.card {
     background: var(--Dark-desaturated-blue);
     border-radius: 1em;
     overflow: hidden;
 }
-.image{
+.card-image{
     background-image: url('../images/image-header-mobile.jpg');
     background-color: var(--Soft-violet);
     background-blend-mode: multiply;
@@ -34,4 +36,33 @@ body{
     background-position: center ;
     background-size: cover;
     height: 400px;
+}
+.card-body{
+    color: var(--White);
+    text-align: center;
+    padding: 2em 2em;
+}
+.card_title{
+    font-weight: 700;
+    padding-bottom: 1em;
+}
+.card-title-text{
+    color: var(--Slightly-transparent-white);
+}
+.box-text{
+    color: var(--Slightly-transparent-white-dos);
+}
+.footer{
+    padding-top: 1em;
+}
+.footer-tittle {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 1.7em;
+    margin-bottom: 0.3em;
+}
+.footer-text{
+    color: var(--Slightly-transparent-white-dos);
+    font-size: .8rem;
+    letter-spacing: 1px;
+    margin-top: 0;
 }
